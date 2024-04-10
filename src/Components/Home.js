@@ -3,10 +3,11 @@ import { Navbar } from './Navbar'
 import { Products } from './Products'
 import {auth,fs} from '../Config/Config'
 import { IndividualFilteredProduct } from './IndividualFilteredProduct'
+import {useNavigate} from 'react-router-dom'
 
 export const Home = (props) => {
 
- 
+    const navigate = useNavigate()
     // getting current user uid
     function GetUserUid(){
         const [uid, setUid]=useState(null);
@@ -122,7 +123,7 @@ export const Home = (props) => {
 
         }
         else{
-            props.history('/login');
+            navigate('/login');
         }
         
     }
