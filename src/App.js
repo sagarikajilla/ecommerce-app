@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './Components/Home'
@@ -8,7 +7,7 @@ import { NotFound } from './Components/NotFound'
 import { AddProducts } from './Components/AddProducts'
 import { Cart } from './Components/Cart'
 
-export const App = () => {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>

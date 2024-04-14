@@ -155,8 +155,7 @@ export const Cart = () =>  {
                         
                          <h6 className='text-center'
                         style={{marginTop: 7+'px'}}>OR</h6>
-                        <button className='btn btn-secondary btn-md' 
-                        /*onClick={()=>triggerModal()}*/>Cash on Delivery</button>                                                                                                                                             
+                        <button className='btn btn-secondary btn-md' >Cash on Delivery</button>                                                                                                                                             
                     </div>                                    
                 </div>
             )}
